@@ -11,11 +11,7 @@ import { FETCH_USER, FETCH_SURVEYS } from "./types";
 //   }
 // }
 
-// export const fetchUser = () => async  dispatch => {
-//   let response = await axios.get('/api/current_user');
 
-//   dispatch({type: 'fetch_user', payload: response.date})
-// }
 
 
 
