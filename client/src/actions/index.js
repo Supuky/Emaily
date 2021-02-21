@@ -4,12 +4,7 @@ import { FETCH_USER, FETCH_SURVEYS } from "./types";
 // All of our "action creaters"
 // Action creators are functions that return actions! 
 
-// export const chengeLogin = shouldBeLoggedIn => {
-//   return {
-//     type: 'change_auth',
-//     payload: shouldBeLoggedIn
-//   }
-// }
+
 
 
 
