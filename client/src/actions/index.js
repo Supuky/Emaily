@@ -3,7 +3,6 @@ import axios from "axios";
 import { FETCH_USER, FETCH_SURVEYS } from "./types";
 // All of our "action creaters"
 // Action creators are functions that return actions! 
-
 export const fetchUser = () => async (dispatch) => {
   const res = await axios.get("/api/current_user");
 
